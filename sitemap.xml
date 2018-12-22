@@ -3,77 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://infinitebyte.github.io/posts/hugo-template-primer/</loc>
+    <loc>http://www.infinitebyte.com/posts/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/categories/</loc>
+    <loc>http://www.infinitebyte.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://infinitebyte.github.io/categories/development/</loc>
+    <loc>http://www.infinitebyte.com/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/tags/go/</loc>
+    <loc>http://www.infinitebyte.com/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/tags/golang/</loc>
+    <loc>http://www.infinitebyte.com/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/categories/golang/</loc>
+    <loc>http://www.infinitebyte.com/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/posts/</loc>
+    <loc>http://www.infinitebyte.com/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/tags/</loc>
+    <loc>http://www.infinitebyte.com/posts/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/tags/templates/</loc>
+    <loc>http://www.infinitebyte.com/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/tags/themes/</loc>
+    <loc>http://www.infinitebyte.com/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/</loc>
+    <loc>http://www.infinitebyte.com/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://infinitebyte.github.io/about/</loc>
+    <loc>http://www.infinitebyte.com/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.infinitebyte.com/about/</loc>
   </url>
   
 </urlset>
