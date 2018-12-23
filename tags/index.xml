@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vijay Kodam</title>
-    <link>http://www.infinitebyte.com/tags/</link>
+    <link>https://infinitebyte.com/tags/</link>
     <description>Recent content in Tags on Vijay Kodam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.infinitebyte.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://infinitebyte.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ambassador</title>
-      <link>http://www.infinitebyte.com/tags/ambassador/</link>
+      <link>https://infinitebyte.com/tags/ambassador/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.infinitebyte.com/tags/ambassador/</guid>
+      <guid>https://infinitebyte.com/tags/ambassador/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Api Gateway</title>
-      <link>http://www.infinitebyte.com/tags/api-gateway/</link>
+      <link>https://infinitebyte.com/tags/api-gateway/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.infinitebyte.com/tags/api-gateway/</guid>
+      <guid>https://infinitebyte.com/tags/api-gateway/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Authentication</title>
-      <link>http://www.infinitebyte.com/tags/authentication/</link>
+      <link>https://infinitebyte.com/tags/authentication/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.infinitebyte.com/tags/authentication/</guid>
+      <guid>https://infinitebyte.com/tags/authentication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keycloak</title>
-      <link>http://www.infinitebyte.com/tags/keycloak/</link>
+      <link>https://infinitebyte.com/tags/keycloak/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.infinitebyte.com/tags/keycloak/</guid>
+      <guid>https://infinitebyte.com/tags/keycloak/</guid>
       <description></description>
     </item>
     
