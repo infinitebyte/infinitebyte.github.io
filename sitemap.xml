@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/posts/hugo-template-primer/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.infinitebyte.com/tags/ambassador/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -49,36 +44,6 @@
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.infinitebyte.com/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.infinitebyte.com/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.infinitebyte.com/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.infinitebyte.com/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.infinitebyte.com/tags/keycloak/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -99,18 +64,6 @@
   <url>
     <loc>http://www.infinitebyte.com/tags/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.infinitebyte.com/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.infinitebyte.com/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
