@@ -3,78 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.infinitebyte.com/posts/ambassador-keycloak-integration/</loc>
+    <loc>https://www.infinitebyte.com/posts/ambassador-keycloak-integration/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/tags/ambassador/</loc>
-    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.infinitebyte.com/tags/api-gateway/</loc>
+    <loc>https://www.infinitebyte.com/tags/ambassador/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/categories/api-gw/</loc>
+    <loc>https://www.infinitebyte.com/tags/api-gateway/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/tags/authentication/</loc>
+    <loc>https://www.infinitebyte.com/categories/api-gw/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/categories/</loc>
+    <loc>https://www.infinitebyte.com/tags/authentication/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/categories/cloud/</loc>
+    <loc>https://www.infinitebyte.com/categories/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/tags/keycloak/</loc>
+    <loc>https://www.infinitebyte.com/categories/cloud/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/categories/open-id-connect/</loc>
+    <loc>https://www.infinitebyte.com/tags/keycloak/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/posts/</loc>
+    <loc>https://www.infinitebyte.com/categories/open-id-connect/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/tags/</loc>
+    <loc>https://www.infinitebyte.com/posts/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/</loc>
+    <loc>https://www.infinitebyte.com/tags/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.infinitebyte.com/about/</loc>
+    <loc>https://www.infinitebyte.com/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.infinitebyte.com/about/</loc>
   </url>
   
 </urlset>
