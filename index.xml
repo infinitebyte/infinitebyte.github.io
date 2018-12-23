@@ -28,7 +28,8 @@ This document is a brief primer on using go templates.</description>
       
       <guid>http://www.infinitebyte.com/about/</guid>
       <description>My name is Vijay Kodam, and this is my personal blog. Currently working as a Principal Engineer Cloud Technology at Nokia, Finland.
-Started developing software for 2G CDMA in my first job, then moved onto 3G 1x-EVDO RNC development. After that wrote code to deploy 4G/5G Virtual Network Functions on Telco Cloud using open source software like Openstack, Mesos and Docker Containers. Currently working on building and maintaining bare metal cloud platform using Kubernetes, Istio, Docker, CoreOS, Ambassador, and Harbor.</description>
+Started developing software for 2G CDMA in my first job, then moved onto 3G 1x-EVDO RNC development. After that wrote code to deploy 4G/5G Virtual Network Functions on Telco Cloud using open source software like Openstack, Mesos and Docker.
+Currently working on building and maintaining bare metal cloud platform using Kubernetes, Istio, Docker, CoreOS, Ambassador, and Harbor.</description>
     </item>
     
   </channel>
