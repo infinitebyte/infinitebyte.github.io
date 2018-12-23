@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Vijay Kodam</title>
-    <link>http://www.infinitebyte.com/posts/</link>
-    <description>Recent content in Posts on Vijay Kodam</description>
+    <title>Api Gateway on Vijay Kodam</title>
+    <link>http://www.infinitebyte.com/tags/api-gateway/</link>
+    <description>Recent content in Api Gateway on Vijay Kodam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.infinitebyte.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.infinitebyte.com/tags/api-gateway/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>http://www.infinitebyte.com/posts/ambassador-keycloak-integration/</guid>
       <description>Ambassador API GW is an Open Source Kubernetes-Native API Gateway built on the Envoy Proxy. It supports plugin mechanism to bring your own authentication. An AuthService manifest configures Ambassador to use an external service to check authentication and authorization for incoming requests. Each incoming request is authenticated before routing to its destination. This way we can use existing authentication backends like Keycloak.
 Keycloak is an open source identity and access management solution.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>http://www.infinitebyte.com/posts/hugo-template-primer/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.infinitebyte.com/posts/hugo-template-primer/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
     </item>
     
   </channel>
