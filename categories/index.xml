@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Vijay Kodam</title>
-    <link>https://www.infinitebyte.com/categories/</link>
+    <link>http://www.infinitebyte.com/categories/</link>
     <description>Recent content in Categories on Vijay Kodam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.infinitebyte.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.infinitebyte.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Api Gw</title>
-      <link>https://www.infinitebyte.com/categories/api-gw/</link>
+      <link>http://www.infinitebyte.com/categories/api-gw/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.infinitebyte.com/categories/api-gw/</guid>
+      <guid>http://www.infinitebyte.com/categories/api-gw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud</title>
-      <link>https://www.infinitebyte.com/categories/cloud/</link>
+      <link>http://www.infinitebyte.com/categories/cloud/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.infinitebyte.com/categories/cloud/</guid>
+      <guid>http://www.infinitebyte.com/categories/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Id Connect</title>
-      <link>https://www.infinitebyte.com/categories/open-id-connect/</link>
+      <link>http://www.infinitebyte.com/categories/open-id-connect/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.infinitebyte.com/categories/open-id-connect/</guid>
+      <guid>http://www.infinitebyte.com/categories/open-id-connect/</guid>
       <description></description>
     </item>
     
