@@ -17,8 +17,9 @@
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://infinitebyte.com/posts/ambassador-keycloak-integration/</guid>
-      <description>Ambassador API GW is an Open Source Kubernetes-Native API Gateway built on the Envoy Proxy. It supports plugin mechanism to bring your own authentication. An AuthService manifest configures Ambassador to use an external service to check authentication and authorization for incoming requests. Each incoming request is authenticated before routing to its destination. This way we can use existing authentication backends like Keycloak.
-Keycloak is an open source identity and access management solution.</description>
+      <description>Ambassador API GW is an open source, Kubernetes-Native microservices API Gateway built on the Envoy Proxy.
+Keycloak is an open source identity and access management solution. Keycloak supports OpenID Connect, SAML, OAuth2 and LDAP.
+Ambassador supports authenticating incoming requests. When configured, Ambassador will check with a third party authentication service prior to routing an incoming request. An AuthService manifest configures Ambassador to use an external service to check authentication and authorization for incoming requests.</description>
     </item>
     
     <item>
@@ -27,9 +28,9 @@ Keycloak is an open source identity and access management solution.</description
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://infinitebyte.com/about/</guid>
-      <description>My name is Vijay Kodam, and this is my personal blog. Currently working as a Principal Engineer Cloud Technology at Nokia, Finland.
-Started developing software for 2G CDMA in my first job, then moved onto 3G 1x-EVDO RNC development. After that wrote code to deploy 4G/5G Virtual Network Functions on Telco Cloud using open source software like Openstack, Mesos and Docker.
-Currently working on building and maintaining bare metal cloud platform using Kubernetes, Istio, Docker, CoreOS, Ambassador, and Harbor.</description>
+      <description>This is Vijay Kodam&amp;rsquo;s personal blog. He is currently working as a Principal Engineer Cloud Technology at Nokia, Finland.
+He started developing software for 2G CDMA in his first job, then moved onto 3G 1x-EVDO RNC development. After that he wrote code to deploy 4G/5G Virtual Network Functions on Telco Cloud using Openstack, Mesos and Docker.
+Currently he is working on building and maintaining cloud platforms using Kubernetes, Istio, Docker, CoreOS, Ambassador, and Harbor on bare metal and AWS.</description>
     </item>
     
   </channel>

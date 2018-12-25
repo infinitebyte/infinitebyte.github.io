@@ -85,7 +85,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              4 minutes read
+              5 minutes read
             </span>
           </div>
           <div class="categories">
@@ -112,18 +112,21 @@
       <div>
         
 
-<p>Ambassador API GW is an Open Source Kubernetes-Native API Gateway built on the Envoy Proxy. It supports plugin mechanism to bring your own authentication. An AuthService manifest configures Ambassador to use an external service to check authentication and authorization for incoming requests. Each incoming request is authenticated before routing to its destination. This way we can use existing authentication backends like Keycloak.</p>
+<p><a href="https://www.getambassador.io/">Ambassador API GW</a> is an open source, Kubernetes-Native microservices API Gateway built on the Envoy Proxy.</p>
 
-<p>Keycloak is an open source identity and access management solution. Keycloak supports OpenID Connect, SAML, OAuth2 and LDAP.</p>
+<p><a href="https://www.keycloak.org/">Keycloak</a> is an open source identity and access management solution. Keycloak supports OpenID Connect, SAML, OAuth2 and LDAP.</p>
 
-<p>In this blog we will be using Keycloak as our IAM solution and integrating it with Ambassador API GW.</p>
+<p>Ambassador supports authenticating incoming requests. When configured, Ambassador will check with a third party authentication service prior to routing an incoming request. An AuthService manifest configures Ambassador to use an external service to check authentication and authorization for incoming requests. Each incoming request is authenticated before routing to its destination.</p>
+
+<p>In this blog we will be using Keycloak as our IAM solution and integrating it with Ambassador API GW. After integrating Keycloak with Ambassador, incoming API requests will be redirected to Keycloak login page for authentication before allowing access to those APIs.</p>
 
 <h3 id="prerequisites">Prerequisites:</h3>
 
 <ol>
-<li>Ambassador API GW is running. Follow the <a href="https://www.getambassador.io/user-guide/getting-started">official instructions</a>. You can run it in a docker container or in Kubernetes.</li>
+<li>Ambassador API GW is deployed and listening for API requests. Follow the <a href="https://www.getambassador.io/user-guide/getting-started">official instructions</a>.</li>
 <li>httpbin example application is configured for the URL: <code>http://&lt;Ambassador URL&gt;/httpbin</code>
-You can follow the instructions mentioned <a href="https://www.getambassador.io/user-guide/getting-started/#3-creating-your-first-route">here</a>. Go to <code>http://&lt;Ambassador URL&gt;/httpbin</code> and this should open <code>httpbin.org</code> website.</li>
+You can follow the instructions mentioned <a href="https://www.getambassador.io/user-guide/getting-started/#3-creating-your-first-route">here</a>.</li>
+<li>Make sure <code>http://&lt;Ambassador URL&gt;/httpbin</code> is routed through Ambassador API GW and it should open <code>httpbin.org</code> website.</li>
 </ol>
 
 <p><strong>Note:</strong> In some of the commands below, you need to substitute relevant IP or URL for Keycloak and Ambassador. You will find them in this notation: <code>&lt;Ambassador IP-or-URL&gt;</code>, <code>&lt;Your-Keycloak-IP-or-URL&gt;</code>.       Similarly there are other variables in <code>&lt; &gt;</code> which you need to substitute before running those commands.</p>
@@ -135,7 +138,11 @@ You can follow the instructions mentioned <a href="https://www.getambassador.io/
 <p><em>Please note that below keycloak setup is not secure and is used only for testing the Ambassador-Keycloak integration. Do not use this in production. Use it at your own risk.</em></p>
 
 <p>For testing purposes docker version of keycloak will be used for this demo.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">docker run -e KEYCLOAK_USER=&lt;add-your-keycloak-user&gt; -e KEYCLOAK_PASSWORD=&lt;keycloak-password&gt; -p 0.0.0.0:80:8080 -itd --name keycloak jboss/keycloak</pre></div>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">docker run -e KEYCLOAK_USER=&lt;add-your-keycloak-user&gt; \
+            -e KEYCLOAK_PASSWORD=&lt;keycloak-password&gt; \
+                                  -p 0.0.0.0:80:8080 \
+                                -itd --name keycloak \
+                                      jboss/keycloak</pre></div>
 <p>Above command will start keycloak on your Linux machine. It will set admin username, password and binds keycloak to port 80. This setup uses keycloak&rsquo;s default H2 DB, which should not be used in production. Note your IP address.</p>
 
 <p>Login to Keycloak by visiting <code>http://&lt;your-ip&gt;</code> in your browser. Use the username and password supplied in the docker run command to login to Keycloak.</p>
