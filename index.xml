@@ -30,7 +30,7 @@ Ambassador supports authenticating incoming requests. When configured, Ambassado
       <guid>https://infinitebyte.com/about/</guid>
       <description>This is Vijay Kodam&amp;rsquo;s personal blog. He is currently working as a Principal Engineer Cloud Technology at Nokia, Finland.
 He started developing software for 2G CDMA in his first job, then moved onto 3G 1x-EVDO RNC development. After that he wrote code to deploy 4G/5G Virtual Network Functions on Telco Cloud using Openstack, Mesos and Docker.
-Currently he is working on building and maintaining cloud platforms using Kubernetes, Istio, Docker, CoreOS, Ambassador, and Harbor on bare metal and AWS.</description>
+Currently he is managing cloud infrastructure using Kubernetes, Istio, Docker, CoreOS, Ambassador, and Harbor on bare metal and AWS.</description>
     </item>
     
   </channel>
